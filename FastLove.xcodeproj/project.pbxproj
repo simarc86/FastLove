@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B18E404EE5564974E53A8ECA /* Pods_FastLove.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A472A743B48559C1335218 /* Pods_FastLove.framework */; };
 		D00E270A1FC98C7700C17331 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E27091FC98C7700C17331 /* AppDelegate.swift */; };
-		D00E270C1FC98C7700C17331 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E270B1FC98C7700C17331 /* ViewController.swift */; };
 		D00E270F1FC98C7700C17331 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00E270D1FC98C7700C17331 /* Main.storyboard */; };
 		D00E27121FC98C7700C17331 /* FastLove.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D00E27101FC98C7700C17331 /* FastLove.xcdatamodeld */; };
 		D00E27141FC98C7700C17331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D00E27131FC98C7700C17331 /* Assets.xcassets */; };
 		D00E27171FC98C7700C17331 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00E27151FC98C7700C17331 /* LaunchScreen.storyboard */; };
+		D00E271F1FC9919700C17331 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E271E1FC9919700C17331 /* LoginViewController.swift */; };
+		D00E27211FC995EF00C17331 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E27201FC995EF00C17331 /* Manager.swift */; };
+		D00E27271FC9AB0B00C17331 /* FacebookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E27261FC9AB0B00C17331 /* FacebookManager.swift */; };
+		D00E272B1FC9BA8D00C17331 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E272A1FC9BA8D00C17331 /* FriendsViewController.swift */; };
+		D00E272D1FC9C96100C17331 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E272C1FC9C96100C17331 /* User.swift */; };
+		D00E272F1FC9C99300C17331 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E272E1FC9C99300C17331 /* Friend.swift */; };
+		D00E27331FC9CAF100C17331 /* Updater.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E27321FC9CAF100C17331 /* Updater.swift */; };
+		D00E27351FC9E16A00C17331 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E27341FC9E16A00C17331 /* FriendTableViewCell.swift */; };
+		D00E27371FC9FCA900C17331 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D00E27361FC9FCA900C17331 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28A472A743B48559C1335218 /* Pods_FastLove.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastLove.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C57DD0DAC8E392E64E71AE8B /* Pods-FastLove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastLove.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FastLove/Pods-FastLove.debug.xcconfig"; sourceTree = "<group>"; };
 		D00E27061FC98C7700C17331 /* FastLove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastLove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D00E27091FC98C7700C17331 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D00E270B1FC98C7700C17331 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D00E270E1FC98C7700C17331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D00E27111FC98C7700C17331 /* FastLove.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FastLove.xcdatamodel; sourceTree = "<group>"; };
 		D00E27131FC98C7700C17331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D00E27161FC98C7700C17331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D00E27181FC98C7700C17331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D00E271E1FC9919700C17331 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D00E27201FC995EF00C17331 /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		D00E27261FC9AB0B00C17331 /* FacebookManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookManager.swift; sourceTree = "<group>"; };
+		D00E272A1FC9BA8D00C17331 /* FriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		D00E272C1FC9C96100C17331 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D00E272E1FC9C99300C17331 /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		D00E27321FC9CAF100C17331 /* Updater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Updater.swift; sourceTree = "<group>"; };
+		D00E27341FC9E16A00C17331 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		D00E27361FC9FCA900C17331 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D3168C245B2FE6480977C33D /* Pods-FastLove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastLove.release.xcconfig"; path = "Pods/Target Support Files/Pods-FastLove/Pods-FastLove.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B18E404EE5564974E53A8ECA /* Pods_FastLove.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0258419C2E4244958BC90806 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C57DD0DAC8E392E64E71AE8B /* Pods-FastLove.debug.xcconfig */,
+				D3168C245B2FE6480977C33D /* Pods-FastLove.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B7BD113635379B895785416 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28A472A743B48559C1335218 /* Pods_FastLove.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D00E26FD1FC98C7700C17331 = {
 			isa = PBXGroup;
 			children = (
 				D00E27081FC98C7700C17331 /* FastLove */,
 				D00E27071FC98C7700C17331 /* Products */,
+				0258419C2E4244958BC90806 /* Pods */,
+				8B7BD113635379B895785416 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +97,19 @@
 			isa = PBXGroup;
 			children = (
 				D00E27091FC98C7700C17331 /* AppDelegate.swift */,
-				D00E270B1FC98C7700C17331 /* ViewController.swift */,
+				D00E271E1FC9919700C17331 /* LoginViewController.swift */,
+				D00E272A1FC9BA8D00C17331 /* FriendsViewController.swift */,
+				D00E27341FC9E16A00C17331 /* FriendTableViewCell.swift */,
+				D00E27201FC995EF00C17331 /* Manager.swift */,
+				D00E27321FC9CAF100C17331 /* Updater.swift */,
+				D00E27261FC9AB0B00C17331 /* FacebookManager.swift */,
+				D00E272C1FC9C96100C17331 /* User.swift */,
+				D00E272E1FC9C99300C17331 /* Friend.swift */,
 				D00E270D1FC98C7700C17331 /* Main.storyboard */,
 				D00E27131FC98C7700C17331 /* Assets.xcassets */,
 				D00E27151FC98C7700C17331 /* LaunchScreen.storyboard */,
 				D00E27181FC98C7700C17331 /* Info.plist */,
+				D00E27361FC9FCA900C17331 /* GoogleService-Info.plist */,
 				D00E27101FC98C7700C17331 /* FastLove.xcdatamodeld */,
 			);
 			path = FastLove;
@@ -74,9 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D00E271B1FC98C7700C17331 /* Build configuration list for PBXNativeTarget "FastLove" */;
 			buildPhases = (
+				4555DEF222899DC3D98242C6 /* [CP] Check Pods Manifest.lock */,
 				D00E27021FC98C7700C17331 /* Sources */,
 				D00E27031FC98C7700C17331 /* Frameworks */,
 				D00E27041FC98C7700C17331 /* Resources */,
+				F925255B3BB3AF2F6675863E /* [CP] Embed Pods Frameworks */,
+				1417A99F16A43FA352835FC3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D00E27171FC98C7700C17331 /* LaunchScreen.storyboard in Resources */,
+				D00E27371FC9FCA900C17331 /* GoogleService-Info.plist in Resources */,
 				D00E27141FC98C7700C17331 /* Assets.xcassets in Resources */,
 				D00E270F1FC98C7700C17331 /* Main.storyboard in Resources */,
 			);
@@ -134,14 +186,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1417A99F16A43FA352835FC3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FastLove/Pods-FastLove-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4555DEF222899DC3D98242C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F925255B3BB3AF2F6675863E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FastLove/Pods-FastLove-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D00E27021FC98C7700C17331 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D00E270C1FC98C7700C17331 /* ViewController.swift in Sources */,
+				D00E272B1FC9BA8D00C17331 /* FriendsViewController.swift in Sources */,
+				D00E27271FC9AB0B00C17331 /* FacebookManager.swift in Sources */,
+				D00E271F1FC9919700C17331 /* LoginViewController.swift in Sources */,
 				D00E27121FC98C7700C17331 /* FastLove.xcdatamodeld in Sources */,
 				D00E270A1FC98C7700C17331 /* AppDelegate.swift in Sources */,
+				D00E27331FC9CAF100C17331 /* Updater.swift in Sources */,
+				D00E27211FC995EF00C17331 /* Manager.swift in Sources */,
+				D00E27351FC9E16A00C17331 /* FriendTableViewCell.swift in Sources */,
+				D00E272D1FC9C96100C17331 /* User.swift in Sources */,
+				D00E272F1FC9C99300C17331 /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +369,7 @@
 		};
 		D00E271C1FC98C7700C17331 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C57DD0DAC8E392E64E71AE8B /* Pods-FastLove.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FastLove/Info.plist;
@@ -274,6 +382,7 @@
 		};
 		D00E271D1FC98C7700C17331 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3168C245B2FE6480977C33D /* Pods-FastLove.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FastLove/Info.plist;
@@ -303,6 +412,7 @@
 				D00E271D1FC98C7700C17331 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

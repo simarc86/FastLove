@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "User.sendFriendsSelecteds() -&gt; ():User.swift">
+      </ContextState>
+      <ContextState
+         contextName = "FriendsViewController.tableView(UITableView, didSelectRowAt : IndexPath) -&gt; ():FriendsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.isHighlighted">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FacebookManager.(fetchUserData() -&gt; ()).(closure #1):FacebookManager.swift">
+      </ContextState>
+      <ContextState
+         contextName = "FriendsViewController.tableView(UITableView, numberOfRowsInSection : Int) -&gt; Int:FriendsViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "static Friend.initWith(dic : NSDictionary) -&gt; Friend:Friend.swift">
+      </ContextState>
+      <ContextState
+         contextName = "static Friend.getImageURL(info : NSDictionary) -&gt; URL:Friend.swift">
+      </ContextState>
+      <ContextState
+         contextName = "LoginViewController.observeValue(forKeyPath : String?, of : Any?, change : [NSKeyValueChangeKey : Any]?, context : UnsafeMutableRawPointer?) -&gt; ():LoginViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "FacebookManager.(fetchFriends() -&gt; ()).(closure #1):FacebookManager.swift">
+      </ContextState>
+      <ContextState
+         contextName = "User.updateFriends(friendsList : NSArray) -&gt; ():User.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Updater.responseUserData(dictionary : NSDictionary) -&gt; ():Updater.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Manager.sharedInstance.user">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
